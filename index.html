@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio with About Me, Web Certificate Courses, and Links">
+    <meta name="author" content="Matthew Mooney">
+    <title> Matthew Mooney Portfolio</title>
+    <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="styles/largerhomapage.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Matthew Mooney</div>
+    <button class="menu-toggle">☰</button>
+    <nav>
+        <ul class="menu">
+            <li><a href="#about">Home</a></li>
+            <li><a href="chamber.html">Chamber Project</a></li>
+            <li><a href="final.html">Final Project</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <img src="images/me.jpg" alt="Photo of Myself" class="about-photo">
+                <p> Hey there, And welcome, to my portfolio. My name is Matthew Mooney, I'm from Dublin in Ireland, and I'm a student at BYU. This website is to help me practice and learn about frontend web-development</p>
+            </div>
+        </section>
+
+        <section id="courses">
+            <h2>Web Certificate Courses</h2>
+            <div class="course-cards" id="course-cards"></div>
+        </section>
+
+        <section id="links">
+            <h2>My Accounts</h2>
+            <div class="account-links">
+                <a href="https://github.com/MatthewTMooney/wdd231">
+                    <img src="images/github.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/matthew-mooney-24a326293">
+                    <img src="images/LinkedIn.png" alt="LinkedIn">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/x.jpg" alt="Twitter">
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> [Your Name]</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/homepage.js" defer></script>
+</body>
+
+</html>

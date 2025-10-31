@@ -1,0 +1,47 @@
+@media (min-width: 1024px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+
+    .main-focus .about-container {
+        grid-template-columns: 250px 1fr;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .about-photo {
+        width: 250px;
+        justify-self: start;
+    }
+
+
+    .course-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .project-links {
+        flex-direction: row;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .project-links a img {
+        width: 250px;
+    }
+
+    .link-images {
+        flex-direction: row;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .link-images a img {
+        width: 250px;
+    }
+}
