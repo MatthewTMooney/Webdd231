@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Tech Solutions LLC",
+        "address": "123 Main St, Springfield, IL",
+        "phone": "555-987-1234",
+        "url": "https://techsolutions.com",
+        "image": "tech.jpg",
+        "membership": 3,
+        "description": "IT consulting and cloud integration"
+    },
+    {
+        "name": "Green Thumb Nursery",
+        "address": "452 Plant Ave, Springfield, IL",
+        "phone": "555-789-6543",
+        "url": "https://greenthumbnursery.com",
+        "image": "nurs.jpg",
+        "membership": 2,
+        "description": "Local garden center specializing in native plants"
+    },
+    {
+        "name": "Blue Wave Fitness",
+        "address": "987 Ocean Blvd, Springfield, IL",
+        "phone": "555-543-0987",
+        "url": "https://bluewavefitness.com",
+        "image": "fit.jpg",
+        "membership": 1,
+        "description": "Fitness center with 24/7 access"
+    },
+    {
+        "name": "Mountain View Cafe",
+        "address": "89 Cedar Rd, Springfield, IL",
+        "phone": "555-222-7644",
+        "url": "https://mvcafe.com",
+        "image": "cafe.jpg",
+        "membership": 2,
+        "description": "Coffee shop and bakery"
+    },
+    {
+        "name": "Silver State Bank",
+        "address": "501 Commerce Ln, Springfield, IL",
+        "phone": "555-567-8123",
+        "url": "https://silverstatebank.com",
+        "image": "bank.jpg",
+        "membership": 3,
+        "description": "Business loans and financial services"
+    },
+    {
+        "name": "The Book Haven",
+        "address": "244 Maple St, Springfield, IL",
+        "phone": "555-112-3344",
+        "url": "https://bookhaven.com",
+        "image": "book.jpg",
+        "membership": 1,
+        "description": "Independent bookstore and reading lounge"
+    },
+    {
+        "name": "Peak Performance Marketing",
+        "address": "321 Summit Ave, Springfield, IL",
+        "phone": "555-889-5566",
+        "url": "https://peakmarketing.com",
+        "image": "mark.jpg",
+        "membership": 2,
+        "description": "Digital marketing & SEO consulting"
+    }
+]
